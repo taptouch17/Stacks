@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65ACD6691ECDFC4E0066FACF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65ACD6681ECDFC4E0066FACF /* main.cpp */; };
+		65ACD6711ECDFC840066FACF /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65ACD66F1ECDFC840066FACF /* Stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		65ACD6651ECDFC4E0066FACF /* Stacks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stacks; sourceTree = BUILT_PRODUCTS_DIR; };
 		65ACD6681ECDFC4E0066FACF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		65ACD66F1ECDFC840066FACF /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		65ACD6701ECDFC840066FACF /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				65ACD6681ECDFC4E0066FACF /* main.cpp */,
+				65ACD66F1ECDFC840066FACF /* Stack.cpp */,
+				65ACD6701ECDFC840066FACF /* Stack.hpp */,
 			);
 			path = Stacks;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65ACD6711ECDFC840066FACF /* Stack.cpp in Sources */,
 				65ACD6691ECDFC4E0066FACF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +227,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 57LH36PK7B;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -231,6 +238,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 57LH36PK7B;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
